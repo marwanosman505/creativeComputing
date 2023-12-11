@@ -1,0 +1,62 @@
+[
+    {
+        "section": "man01",
+        "credits": [
+            {
+                "creditName": "Project Delivery Planning",
+                "creditDescription": {
+                    "1": "Prior to completion of the Concept Design, the project delivery stakeholders (see Definitions on page 41) meet to identify and define for each key phase of project delivery:",
+                    "1a": "Roles",
+                    "1b": "Responsibilities",
+                    "1c": "Contributions.",
+                    "2-description": "Consider each one of the following items when defining roles, responsibilities, and contributions for each key phase of the project:",
+                    "2a": "End user requirements",
+                    "2b": "Aims of the design and design strategy",
+                    "2c": "Particular installation and construction requirements or limitations",
+                    "2d": "Occupiers' budget and technical expertise in maintaining any proposed systems",
+                    "2e": "Maintainability and adaptability of the proposals",
+                    "2f": "Operational energy (see Assessment scope on page 129)",
+                    "2g": "Requirements for the production of project and end user documentation",
+                    "2h": "Requirements for commissioning, training and aftercare support.",
+                    "3-description": "Where the building occupants are not known, the list of considerations above still applies. The appropriate project delivery stakeholder considers each item, based on likely scenarios of building occupancy. The project team demonstrates how the project delivery stakeholders' contributions and the consultation process outcomes influence the following:",
+                    "3a": "Initial Project Brief",
+                    "3b": "Project Execution Plan (see Definitions on page 41)",
+                    "3c": "Communication Strategy (see Definitions on page 41)",
+                    "3d": "Concept Design."
+                }
+            },
+            {
+                "creditName": "Stakeholder consultation (interested parties)",
+                "creditDescription": {
+                    "4-description": "Prior to completion of the Concept Design, the design team consult with all interested parties (see Definitions on page 41) on matters that cover the minimum consultation content (see Methodology on the next page).",
+                    "5-description": "Demonstrate how the stakeholder contributions and consultation exercise outcomes influence the Initial Project Brief and Concept Design.",
+                    "6-description": "Prior to completion of the detailed design (RIBA Stage 4, Technical Design or equivalent), all interested parties (see Definitions on page 41) give and receive consultation feedback."
+                }
+            },
+            {
+                "creditName": "BREEAM AP (Concept Design)",
+                "creditDescription": {
+                    "9-description": "Involve a BREEAM AP in the project at an appropriate time and level to:",
+                    "9a": "Work with the project team, including the client, to consider the links between BREEAM issues and assist them in maximizing the project’s overall performance against BREEAM, from their appointment and throughout Concept Design.",
+                    "9b": "Monitor progress against the performance targets (see Definitions on page 41) agreed under criterion 8 above throughout all stages after their appointment where decisions critically impact BREEAM performance.",
+                    "9c": "Proactively identify risks and opportunities related to the achievement of the targets agreed under criterion 8 above.",
+                    "9d": "Provide feedback to the project team as appropriate, to support them in taking corrective actions and achieving their agreed performance targets.",
+                    "9e": "Monitor and, where relevant, coordinate the generation of appropriate evidence by the project team."
+                }
+            },
+            {
+                "creditName": "BREEAM AP (Developed Design)",
+                "creditDescription": {
+                    "10-description": "Criteria 8 and 9 above are achieved.",
+                    "11-description": "Involve a BREEAM AP in the project at an appropriate time and level to:",
+                    "11a": "Work with the project team, including the client, to consider the links between BREEAM issues and to assist them in maximizing the project’s overall performance against BREEAM throughout Developed Design.",
+                    "11b": "Monitor progress against the performance targets agreed under criterion 8 above throughout all stages where decisions critically impact the specification and tendering process and the BREEAM performance.",
+                    "11c": "Proactively identify risks and opportunities related to the achievement of the targets agreed under criterion 8 above.",
+                    "11d": "Provide feedback to the project team as appropriate, to support them in taking corrective actions and achieving their agreed performance targets.",
+                    "11e": "Monitor and, where relevant, coordinate the generation of appropriate evidence by the project team."
+                    }
+                }
+            
+        ]
+    }
+]

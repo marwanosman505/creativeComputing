@@ -1,0 +1,36 @@
+ChainofThought
+    unstructured_question:
+    You are a project delivery team lead and want to achieve 3 out of the 4 credits in the manual:
+    unstructured_response:
+    As a project delivery team lead, here are the three credits that I would focus on achieving:\n\n1. Project Delivery Planning (MAN01): This credit focuses on establishing roles, responsibilities, and contributions for each key phase of project delivery. It requires considering various factors such as end user requirements, design aims, installation and construction requirements, budget and technical expertise, maintainability, operational energy, documentation requirements, and commissioning needs. By effectively defining these aspects, the project team can influence the Initial Project Brief, Project Execution Plan, Communication Strategy, and Concept Design.\n\n2. Stakeholder consultation (interested parties): This credit emphasizes the importance of consulting with all interested parties during the Concept Design and detailed design stages. The consultation process should cover the minimum consultation content and involve feedback from stakeholders. The outcomes of these consultations should then influence the Initial Project Brief and Concept Design. By actively involving stakeholders and considering their inputs, the project team can ensure that the project aligns with their needs and expectations.\n\n3. BREEAM AP (Concept Design) or BREEAM AP (Developed Design): Depending on the stage of the project, you can choose to focus on either credit 9 (Concept Design) or credit 11 (Developed Design). These credits involve appointing a BREEAM Accredited Professional (AP) who works with the project team to maximize the project's overall performance against BREEAM. The AP monitors progress, identifies risks and opportunities, provides feedback, and coordinates the generation of appropriate evidence. By engaging a BREEAM AP, the project team can enhance the project's sustainability performance and achieve BREEAM targets.\n\nBy prioritizing these three credits, you can ensure effective project delivery planning, stakeholder engagement, and sustainability performance throughout the project lifecycle.
+
+
+    structured_question:
+    prompt1 = ChatPromptTemplate.from_template("You are a project delivery team lead and want to achieve {test} out of the 4 credits in the manual:\n"+manual+"\n\nReturn the pros and cons for each credit and nothing else:")
+    prompt2 = ChatPromptTemplate.from_template(
+    "Here are the pros and cons for each credit:{pros_and_cons}Return the credits that you will achieve and why:"
+)
+
+
+
+    structured_response[gpt-3.5-turbo]:
+    Credit 1: Project Delivery Planning is achievable because it allows for clear identification and definition of roles, responsibilities, and contributions for each key phase of project delivery. It also considers various factors such as end user requirements, design aims, installation and construction requirements, budget, maintainability, and operational energy. This credit influences important project documents such as the Initial Project Brief, Project Execution Plan, Communication Strategy, and Concept Design.
+
+    Credit 2: Stakeholder consultation (interested parties) is achievable as it requires consultation with all interested parties on relevant matters. It demonstrates the project's commitment to involving stakeholders and considering their contributions and consultation outcomes in the Initial Project Brief and Concept Design. It also provides an opportunity for feedback from interested parties during the detailed design stage.
+
+    Credit 3: BREEAM AP (Concept Design) is achievable by involving a BREEAM AP in the project. This professional considers the links between BREEAM issues and maximizes the project's overall performance against BREEAM. They monitor progress against performance targets, identify risks and opportunities related to BREEAM achievement, provide feedback and support to the project team, and ensure appropriate evidence generation.
+
+    Credit 4: BREEAM AP (Developed Design) is achievable by involving a BREEAM AP in the project during the Developed Design stage. This professional builds upon the achievements of criteria 8 and 9 and maximizes the project's overall performance against BREEAM. They monitor progress against performance targets, identify risks and opportunities related to BREEAM achievement, provide feedback and support to the project team, and ensure appropriate evidence generation.
+
+    The reasons for achieving these credits include their positive impact on project delivery, stakeholder engagement, and overall performance against BREEAM standards. Additionally, there are no mentioned cons for any of these credits in the manual, further supporting their achievability.
+
+    structured_response[gpt-4]
+    As an AI, I don't have personal preferences or projects. However, based on the provided analysis, a hypothetical project could consider achieving the "Project Delivery Planning" and "Stakeholder consultation (interested parties)" credits. 
+
+    The "Project Delivery Planning" credit could be pursued to ensure clear communication, efficiency, and a comprehensive project plan that caters to the specific needs of the stakeholders. This could potentially increase the project's success rate.
+
+    The "Stakeholder consultation (interested parties)" credit could also be valuable as it can lead to a more robust design by considering all perspectives and concerns. Building relationships and trust with stakeholders can result in smoother project execution.
+
+    However, the decision to pursue a particular credit should be based on the specific circumstances of the project, the resources available, and the goals of the project team and stakeholders.
+
+
