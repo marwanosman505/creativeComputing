@@ -1,36 +1,177 @@
 ChainofThought
     unstructured_question:
-    You are a project delivery team lead and want to achieve 3 out of the 4 credits in the manual:
+        You are a project delivery team lead and want to achieve 3 out of the 4 credits in the manual:
     unstructured_response:
-    As a project delivery team lead, here are the three credits that I would focus on achieving:\n\n1. Project Delivery Planning (MAN01): This credit focuses on establishing roles, responsibilities, and contributions for each key phase of project delivery. It requires considering various factors such as end user requirements, design aims, installation and construction requirements, budget and technical expertise, maintainability, operational energy, documentation requirements, and commissioning needs. By effectively defining these aspects, the project team can influence the Initial Project Brief, Project Execution Plan, Communication Strategy, and Concept Design.\n\n2. Stakeholder consultation (interested parties): This credit emphasizes the importance of consulting with all interested parties during the Concept Design and detailed design stages. The consultation process should cover the minimum consultation content and involve feedback from stakeholders. The outcomes of these consultations should then influence the Initial Project Brief and Concept Design. By actively involving stakeholders and considering their inputs, the project team can ensure that the project aligns with their needs and expectations.\n\n3. BREEAM AP (Concept Design) or BREEAM AP (Developed Design): Depending on the stage of the project, you can choose to focus on either credit 9 (Concept Design) or credit 11 (Developed Design). These credits involve appointing a BREEAM Accredited Professional (AP) who works with the project team to maximize the project's overall performance against BREEAM. The AP monitors progress, identifies risks and opportunities, provides feedback, and coordinates the generation of appropriate evidence. By engaging a BREEAM AP, the project team can enhance the project's sustainability performance and achieve BREEAM targets.\n\nBy prioritizing these three credits, you can ensure effective project delivery planning, stakeholder engagement, and sustainability performance throughout the project lifecycle.
+        As a project delivery team lead, here are the three credits that I would focus on achieving:\n\n1. Project Delivery Planning (MAN01): This credit focuses on establishing roles, responsibilities, and contributions for each key phase of project delivery. It requires considering various factors such as end user requirements, design aims, installation and construction requirements, budget and technical expertise, maintainability, operational energy, documentation requirements, and commissioning needs. By effectively defining these aspects, the project team can influence the Initial Project Brief, Project Execution Plan, Communication Strategy, and Concept Design.\n\n2. Stakeholder consultation (interested parties): This credit emphasizes the importance of consulting with all interested parties during the Concept Design and detailed design stages. The consultation process should cover the minimum consultation content and involve feedback from stakeholders. The outcomes of these consultations should then influence the Initial Project Brief and Concept Design. By actively involving stakeholders and considering their inputs, the project team can ensure that the project aligns with their needs and expectations.\n\n3. BREEAM AP (Concept Design) or BREEAM AP (Developed Design): Depending on the stage of the project, you can choose to focus on either credit 9 (Concept Design) or credit 11 (Developed Design). These credits involve appointing a BREEAM Accredited Professional (AP) who works with the project team to maximize the project's overall performance against BREEAM. The AP monitors progress, identifies risks and opportunities, provides feedback, and coordinates the generation of appropriate evidence. By engaging a BREEAM AP, the project team can enhance the project's sustainability performance and achieve BREEAM targets.\n\nBy prioritizing these three credits, you can ensure effective project delivery planning, stakeholder engagement, and sustainability performance throughout the project lifecycle.
 
 
     structured_question:
-    prompt1 = ChatPromptTemplate.from_template("You are a project delivery team lead and want to achieve {test} out of the 4 credits in the manual:\n"+manual+"\n\nReturn the pros and cons for each credit and nothing else:")
-    prompt2 = ChatPromptTemplate.from_template(
-    "Here are the pros and cons for each credit:{pros_and_cons}Return the credits that you will achieve and why:"
+        prompt1 = ChatPromptTemplate.from_template("You are a project delivery team lead and want to achieve {test} out of the 4 credits in the manual:\n"+manual+"\n\nReturn the pros and cons for each credit and nothing else:")
+        prompt2 = ChatPromptTemplate.from_template(
+        "Here are the pros and cons for each credit:{pros_and_cons}Return the credits that you will achieve and why:"
 )
 
-
-
     structured_response[gpt-3.5-turbo]:
-    Credit 1: Project Delivery Planning is achievable because it allows for clear identification and definition of roles, responsibilities, and contributions for each key phase of project delivery. It also considers various factors such as end user requirements, design aims, installation and construction requirements, budget, maintainability, and operational energy. This credit influences important project documents such as the Initial Project Brief, Project Execution Plan, Communication Strategy, and Concept Design.
+        Credit 1: Project Delivery Planning is achievable because it allows for clear identification and definition of roles, responsibilities, and contributions for each key phase of project delivery. It also considers various factors such as end user requirements, design aims, installation and construction requirements, budget, maintainability, and operational energy. This credit influences important project documents such as the Initial Project Brief, Project Execution Plan, Communication Strategy, and Concept Design.
 
-    Credit 2: Stakeholder consultation (interested parties) is achievable as it requires consultation with all interested parties on relevant matters. It demonstrates the project's commitment to involving stakeholders and considering their contributions and consultation outcomes in the Initial Project Brief and Concept Design. It also provides an opportunity for feedback from interested parties during the detailed design stage.
+        Credit 2: Stakeholder consultation (interested parties) is achievable as it requires consultation with all interested parties on relevant matters. It demonstrates the project's commitment to involving stakeholders and considering their contributions and consultation outcomes in the Initial Project Brief and Concept Design. It also provides an opportunity for feedback from interested parties during the detailed design stage.
 
-    Credit 3: BREEAM AP (Concept Design) is achievable by involving a BREEAM AP in the project. This professional considers the links between BREEAM issues and maximizes the project's overall performance against BREEAM. They monitor progress against performance targets, identify risks and opportunities related to BREEAM achievement, provide feedback and support to the project team, and ensure appropriate evidence generation.
+        Credit 3: BREEAM AP (Concept Design) is achievable by involving a BREEAM AP in the project. This professional considers the links between BREEAM issues and maximizes the project's overall performance against BREEAM. They monitor progress against performance targets, identify risks and opportunities related to BREEAM achievement, provide feedback and support to the project team, and ensure appropriate evidence generation.
 
-    Credit 4: BREEAM AP (Developed Design) is achievable by involving a BREEAM AP in the project during the Developed Design stage. This professional builds upon the achievements of criteria 8 and 9 and maximizes the project's overall performance against BREEAM. They monitor progress against performance targets, identify risks and opportunities related to BREEAM achievement, provide feedback and support to the project team, and ensure appropriate evidence generation.
+        Credit 4: BREEAM AP (Developed Design) is achievable by involving a BREEAM AP in the project during the Developed Design stage. This professional builds upon the achievements of criteria 8 and 9 and maximizes the project's overall performance against BREEAM. They monitor progress against performance targets, identify risks and opportunities related to BREEAM achievement, provide feedback and support to the project team, and ensure appropriate evidence generation.
 
-    The reasons for achieving these credits include their positive impact on project delivery, stakeholder engagement, and overall performance against BREEAM standards. Additionally, there are no mentioned cons for any of these credits in the manual, further supporting their achievability.
+        The reasons for achieving these credits include their positive impact on project delivery, stakeholder engagement, and overall performance against BREEAM standards. Additionally, there are no mentioned cons for any of these credits in the manual, further supporting their achievability.
 
     structured_response[gpt-4]
-    As an AI, I don't have personal preferences or projects. However, based on the provided analysis, a hypothetical project could consider achieving the "Project Delivery Planning" and "Stakeholder consultation (interested parties)" credits. 
+        As an AI, I don't have personal preferences or projects. However, based on the provided analysis, a hypothetical project could consider achieving the "Project Delivery Planning" and "Stakeholder consultation (interested parties)" credits. 
 
-    The "Project Delivery Planning" credit could be pursued to ensure clear communication, efficiency, and a comprehensive project plan that caters to the specific needs of the stakeholders. This could potentially increase the project's success rate.
+        The "Project Delivery Planning" credit could be pursued to ensure clear communication, efficiency, and a comprehensive project plan that caters to the specific needs of the stakeholders. This could potentially increase the project's success rate.
 
-    The "Stakeholder consultation (interested parties)" credit could also be valuable as it can lead to a more robust design by considering all perspectives and concerns. Building relationships and trust with stakeholders can result in smoother project execution.
+        The "Stakeholder consultation (interested parties)" credit could also be valuable as it can lead to a more robust design by considering all perspectives and concerns. Building relationships and trust with stakeholders can result in smoother project execution.
 
-    However, the decision to pursue a particular credit should be based on the specific circumstances of the project, the resources available, and the goals of the project team and stakeholders.
+        However, the decision to pursue a particular credit should be based on the specific circumstances of the project, the resources available, and the goals of the project team and stakeholders.
+
+Structured_References
+    unstructured_data
+        $ python3 structuredReference.py "how many credits in total"
+        The total number of credits mentioned in the given context is 14
+
+    sturctured_data
+        $ python3 structuredReference.py "how many credits in total"
+        Based on the provided information, there are at least 4 credits mentioned. However, without further context or information, it is not possible to determine the total number of credits.
+
+
+Week 15 [Prompt Engineering]
+
+
+Objectives:
+
+Explore different prompt techniques [1]
+Test and evaluate techniques in a program [2]
+
+
+
+
+[1] Researched Techniques:
+
+
+
+[Structured References] Model can respond better when given data in context.
+
+
+
+[Chain of thought] Getting the model to break down the question and then respond
+
+
+
+[Flipped Interaction] The model asks a series of prompts to get the question out of them
+
+
+
+
+
+[2] Findings:
+
+
+
+[Structured References]
+
+
+
+To demonstrate the effectiveness of this technique I first had to find a data set. I used a sample of a credit-based construction manual to do this.
+
+
+
+The manual was in pdf format so I copied the relevant text for one of the sections which had 4 credits in total. Each of these credits had subcategories of further requirements to clarify how to achieve each credit.
+
+
+
+The text file however is formatted in a list of paragraphs with no clear start and end to each credit so I then formatted the document in JSON format in an array of credit objects.
+
+
+
+
+
+
+
+Now that I have the structured and unstructured data it is time for testing.
+
+Figure 1-------------------------------------------------------------------------------------------------------------------------------
+
+# unstructured_data
+$ python3 structuredReference.py "how many credits in total"
+# response
+'The total number of credits mentioned in the given context is 14'
+
+# sturctured_data
+$ python3 structuredReference.py "how many credits in total"
+# response
+------------------------------------------------------------------------------------------------------------------------Based on the provided information, there are at least 4 credits mentioned. However, without further context or information, it is not possible to determine the total number of credits.'
+
+
+
+As you can see above the LLM failed to count the number of credits with the unstructured txt file and instead counted the number of subcategories within each credit. 
+
+
+
+On the other hand, the LLM had no difficulty with the structured JSON file and was even able to identify that this is a sample of the entire manual as I also included a section attribute for the credits array (this was simply the title in the txt file).
+
+
+
+
+
+
+
+[Chain of Thought]
+
+
+
+This technique required more complex prompting. The use case was that the user is a project delivery team lead and is being assessed on a credit basis however they are tight on time and have limited resources so they want to know which credits to target as they don't need to achieve them all for the project to be a success.
+
+
+
+The same JSON file was used from the structured references experiment however this time the LLM was tasked with giving advice instead of basic fact recall.
+
+
+
+I first simply asked the LLM a basic prompt to set a baseline for its capabilities
+
+Figure 2----------------------------------------------------------------------------------------------------------------------------------
+
+LLM.invoke("You are a project delivery team lead and want to achieve 3 out of the 4 credits in the manual:")
+------------------------------------------------------------------------------------------------------------------------------------------
+
+The response was a large informative paragraph that mentioned stakeholders however there was no concise advice on each credit; it tried to cover what it identified as important parts of the credit instead of the entire credit as a whole.
+
+
+
+Figure 3----------------------------------------------------------------------------------------------------------------------------------
+
+prompt1 = ChatPromptTemplate.from_template("You are a project delivery team lead and want to achieve {credits} out of the 4 credits in the manual:\n"+manual+"\n\nReturn the pros and cons for each credit and nothing else:")
+
+prompt2 = ChatPromptTemplate.from_template(
+  "Here are the pros and cons for each credit:{pros_and_cons}Return the credits that you will achieve and why:"
+)
+---------------------------------------------------------------------------------------------------------------------------------------------Here I implemented the chain of thought methodology by first asking the LLM to identify the pros and cons for each credit (based off the structured json file), and then feed it into the second prompt which makes a choice on which credits to target.
+
+
+
+
+
+[Flipped Interaction]
+
+
+
+The same use case was targeted as for the previous two techniques;
+
+
+
+We understand that the project delivery team [Figure 2] wants help identifying which credits to target however if they aren't educated enough on the manual/specification they may not be able to provide relevant information directly. 
+
+
+
+Flipped interaction methods can be used to guide the user to the relevant subject to allow the model to make a more informed response based on the context provided.
+
+
 
 
